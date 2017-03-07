@@ -1,0 +1,362 @@
+## /Applications/Trelis-15.0.app/Contents/MacOS/Trelis-15.0
+## Trelis Version 15.0.2
+## Trelis Build b3fa289
+## Revised Tue Jun 3 17:44:32 2014 -0600
+## Running 03/01/2017 01:48:26 PM
+## Command Options:
+reset
+# ----------------------------------------------------------------------
+# Set units to SI.
+# ----------------------------------------------------------------------
+#{Units('si')}
+${domainX=4000}
+${domainY=3000}
+${domainZ=400}
+${domainCenterX=0.5*domainX}
+${domainCenterY=0.5*domainY}
+${domainCenterZ=-0.5*domainZ}
+# Create the domain and move it so that origin will be at the top southwestern corner.
+brick x {domainX} y {domainY} z {domainZ}
+move volume 1 x {domainCenterX} y {domainCenterY} z {domainCenterZ}
+# Cut the domain with a flat Moho at 35 km depth and an LAB at 100 km depth
+webcut body 1 with plane zplane offset {-35}
+webcut body 2 with plane zplane offset {-100}
+#{faultLength=500.0}
+#{faultWidth =200.0}
+#{faultHtop =5.37}
+#{faultDip =12.0}
+#{faultStrike=200.0}
+#{epicenterX=3000.0}
+#{epicenterY=1550.0}
+#{hypocenterDepth=-22.0}
+#{hypocenterX=190.0}
+#{hypocenterZ=80.0}
+#{blockLength=faultLength+0.0}
+#{blockWidth =faultWidth*cos(faultDip)+0.0}
+#{blockHeight=110}
+#{faultOriginX=epicenterX+hypocenterZ*cos(faultDip)}
+#{faultOriginY=epicenterY+hypocenterX}
+#{domain_center_x=faultOriginX - 0.5*blockWidth}
+#{domain_center_y=faultOriginY - 0.5*blockLength}
+#{domain_center_z=-0.5*blockHeight+10.0}
+brick x {blockWidth} y {blockLength} z {blockHeight}
+volume 4 move x {domain_center_x} y {domain_center_y} z {domain_center_z}
+reset
+# ----------------------------------------------------------------------
+# Set units to SI.
+# ----------------------------------------------------------------------
+#{Units('si')}
+${domainX=4000}
+${domainY=3000}
+${domainZ=400}
+${domainCenterX=0.5*domainX}
+${domainCenterY=0.5*domainY}
+${domainCenterZ=-0.5*domainZ}
+# Create the domain and move it so that origin will be at the top southwestern corner.
+brick x {domainX} y {domainY} z {domainZ}
+move volume 1 x {domainCenterX} y {domainCenterY} z {domainCenterZ}
+# Cut the domain with a flat Moho at 35 km depth and an LAB at 100 km depth
+webcut body 1 with plane zplane offset {-35}
+webcut body 2 with plane zplane offset {-100}
+# create the rupture plane box
+#{faultLength=500.0}
+#{faultWidth =200.0}
+#{faultHtop =5.37}
+#{faultDip =12.0}
+#{faultStrike=200.0}
+#{epicenterX=2600.0}
+#{epicenterY=1600.0}
+#{hypocenterDepth=-22.0}
+#{hypocenterX=190.0}
+#{hypocenterZ=80.0}
+#{blockLength=faultLength+0.0}
+#{blockWidth =faultWidth*cos(faultDip)+0.0}
+#{blockHeight=110}
+#{faultOriginX=epicenterX+hypocenterZ*cos(faultDip)}
+#{faultOriginY=epicenterY+hypocenterX}
+#{domain_center_x=faultOriginX - 0.5*blockWidth}
+#{domain_center_y=faultOriginY - 0.5*blockLength}
+#{domain_center_z=-0.5*blockHeight+10.0}
+brick x {blockWidth} y {blockLength} z {blockHeight}
+volume 4 move x {domain_center_x} y {domain_center_y} z {domain_center_z}
+create planar surface with plane zplane offset {-22}
+rotate surface 33 angle {faultDip} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 -1 0 include_merged
+rotate volume 4 angle {180-faultStrike} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 0 1 include_merged
+rotate surface 33 angle {180-faultStrike} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 0 1 include_merged
+webcut volume 4 with sheet extended from surface 33
+delete surface 33
+delete volume 6
+# Cut crust and lithosphere with the hangingwall
+chop volume 1 with volume 4 keep
+chop volume 2 with volume 4 keep
+# clean up
+delete volume 1 2 4
+imprint all with all
+merge all
+compress all
+# ----------------------------------------------------------------------
+# Assign sizes to different regions and define meshing scheme.
+# ----------------------------------------------------------------------
+#{min_size=5.0}
+#{int_size=20.0}
+#{max_size=50.0}
+volume all size {max_size}
+volume 2 size {min_size}
+volume 4 size {min_size}
+volume all scheme tetmesh
+# ----------------------------------------------------------------------
+# Generate the mesh.
+# ----------------------------------------------------------------------
+mesh surface all
+mesh volume all
+# ----------------------------------------------------------------------
+# Smooth the mesh to improve quality.
+# ----------------------------------------------------------------------
+# Loop where we decrease desired condition number at each step.
+#{condnum=2.4}
+volume all smooth scheme condition number beta {condnum} cpu 5
+smooth volume all
+#{condnum=condnum-0.1}
+volume all smooth scheme condition number beta {condnum} cpu 5
+smooth volume all
+#{condnum=condnum-0.1}
+# ----------------------------------------------------------------------
+# Create blocks for different materials.
+# ----------------------------------------------------------------------
+block 1 volume 2 3
+block 1 name "crust"
+block 2 volume 4 5
+block 2 name "lithosphere"
+block 3 volume 1
+block 3 name "asthenosphere"
+# ----------------------------------------------------------------------
+# Create nodeset for dike and dike edge.
+# ----------------------------------------------------------------------
+group "fault" add node in surface 9 22
+nodeset 100 fault
+nodeset 100 name "fault"
+group "fault_edge" add node in curve 14 22 41 43 44
+nodeset 102 fault_edge
+nodeset 102 name "fault_edge"
+# ----------------------------------------------------------------------
+# Create nodesets for all external boundaries.
+# ----------------------------------------------------------------------
+group "face_xpos" add node in surface 4 14 25
+nodeset 10 face_xpos
+nodeset 10 name "face_xpos"
+group "face_xneg" add node in surface 6 17 27
+nodeset 11 face_xneg
+nodeset 11 name "face_xneg"
+group "face_ypos" add node in surface 3 18 24
+nodeset 12 face_ypos
+nodeset 12 name "face_ypos"
+group "face_yneg" add node in surface 5 15 26
+nodeset 13 face_yneg
+nodeset 13 name "face_yneg"
+group "face_zpos" add node in surface 13 16
+nodeset 14 face_zpos
+nodeset 14 name "face_zpos"
+group "face_zneg" add node in surface 1
+nodeset 15 face_zneg
+nodeset 15 name "face_zneg"
+# ----------------------------------------------------------------------
+# Export exodus file.
+# ----------------------------------------------------------------------
+set large exodus file off
+export mesh "./korea_simple.exo" dimension 3 overwrite
+# End of file
+reset
+# ----------------------------------------------------------------------
+# Set units to SI.
+# ----------------------------------------------------------------------
+#{Units('si')}
+${domainX=4000}
+${domainY=3000}
+${domainZ=400}
+${domainCenterX=0.5*domainX}
+${domainCenterY=0.5*domainY}
+${domainCenterZ=-0.5*domainZ}
+# Create the domain and move it so that origin will be at the top southwestern corner.
+brick x {domainX} y {domainY} z {domainZ}
+move volume 1 x {domainCenterX} y {domainCenterY} z {domainCenterZ}
+# Cut the domain with a flat Moho at 35 km depth and an LAB at 100 km depth
+webcut body 1 with plane zplane offset {-35}
+webcut body 2 with plane zplane offset {-100}
+# create the rupture plane box
+#{faultLength=500.0}
+#{faultWidth =200.0}
+#{faultHtop =5.37}
+#{faultDip =12.0}
+#{faultStrike=200.0}
+#{epicenterX=2600.0}
+#{epicenterY=1600.0}
+#{hypocenterDepth=-22.0}
+#{hypocenterX=190.0}
+#{hypocenterZ=80.0}
+#{blockLength=faultLength+0.0}
+#{blockWidth =faultWidth*cos(faultDip)+0.0}
+#{blockHeight=110}
+#{faultOriginX=epicenterX+hypocenterZ*cos(faultDip)}
+#{faultOriginY=epicenterY+hypocenterX}
+#{domain_center_x=faultOriginX - 0.5*blockWidth}
+#{domain_center_y=faultOriginY - 0.5*blockLength}
+#{domain_center_z=-0.5*blockHeight+10.0}
+brick x {blockWidth} y {blockLength} z {blockHeight}
+volume 4 move x {domain_center_x} y {domain_center_y} z {domain_center_z}
+create planar surface with plane zplane offset {-22}
+rotate surface 33 angle {faultDip} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 -1 0 include_merged
+rotate volume 4 angle {180-faultStrike} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 0 1 include_merged
+rotate surface 33 angle {180-faultStrike} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 0 1 include_merged
+webcut volume 4 with sheet extended from surface 33
+delete surface 33
+delete volume 6
+# Cut crust and lithosphere with the hangingwall
+chop volume 1 with volume 4 keep
+chop volume 2 with volume 4 keep
+# clean up
+delete volume 1 2 4
+imprint all with all
+merge all
+compress all
+# ----------------------------------------------------------------------
+# Assign sizes to different regions and define meshing scheme.
+# ----------------------------------------------------------------------
+#{min_size=5.0}
+#{int_size=20.0}
+#{max_size=50.0}
+volume all size {max_size}
+volume 2 size {min_size}
+volume 3 size {min_size}
+volume 4 size {min_size}
+volume 5 size {min_size}
+volume all scheme tetmesh
+# ----------------------------------------------------------------------
+# Generate the mesh.
+# ----------------------------------------------------------------------
+mesh surface all
+reset
+# ----------------------------------------------------------------------
+# Set units to SI.
+# ----------------------------------------------------------------------
+#{Units('si')}
+${domainX=4000}
+${domainY=3000}
+${domainZ=400}
+${domainCenterX=0.5*domainX}
+${domainCenterY=0.5*domainY}
+${domainCenterZ=-0.5*domainZ}
+# Create the domain and move it so that origin will be at the top southwestern corner.
+brick x {domainX} y {domainY} z {domainZ}
+move volume 1 x {domainCenterX} y {domainCenterY} z {domainCenterZ}
+# Cut the domain with a flat Moho at 35 km depth and an LAB at 100 km depth
+webcut body 1 with plane zplane offset {-35}
+webcut body 2 with plane zplane offset {-100}
+# create the rupture plane box
+#{faultLength=500.0}
+#{faultWidth =200.0}
+#{faultHtop =5.37}
+#{faultDip =12.0}
+#{faultStrike=200.0}
+#{epicenterX=2600.0}
+#{epicenterY=1600.0}
+#{hypocenterDepth=-22.0}
+#{hypocenterX=190.0}
+#{hypocenterZ=80.0}
+#{blockLength=faultLength+0.0}
+#{blockWidth =faultWidth*cos(faultDip)+0.0}
+#{blockHeight=110}
+#{faultOriginX=epicenterX+hypocenterZ*cos(faultDip)}
+#{faultOriginY=epicenterY+hypocenterX}
+#{domain_center_x=faultOriginX - 0.5*blockWidth}
+#{domain_center_y=faultOriginY - 0.5*blockLength}
+#{domain_center_z=-0.5*blockHeight+10.0}
+brick x {blockWidth} y {blockLength} z {blockHeight}
+volume 4 move x {domain_center_x} y {domain_center_y} z {domain_center_z}
+create planar surface with plane zplane offset {-22}
+rotate surface 33 angle {faultDip} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 -1 0 include_merged
+rotate volume 4 angle {180-faultStrike} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 0 1 include_merged
+rotate surface 33 angle {180-faultStrike} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 0 1 include_merged
+webcut volume 4 with sheet extended from surface 33
+delete surface 33
+delete volume 6
+# Cut crust and lithosphere with the hangingwall
+chop volume 1 with volume 4 keep
+chop volume 2 with volume 4 keep
+# clean up
+delete volume 1 2 4
+imprint all with all
+merge all
+compress all
+# ----------------------------------------------------------------------
+# Assign sizes to different regions and define meshing scheme.
+# ----------------------------------------------------------------------
+#{min_size=5.0}
+#{int_size=10.0}
+#{max_size=50.0}
+volume all size {max_size}
+volume 2 size {min_size}
+volume 3 size {int_size}
+volume 4 size {min_size}
+volume 5 size {int_size}
+volume all scheme tetmesh
+# ----------------------------------------------------------------------
+# Generate the mesh.
+# ----------------------------------------------------------------------
+mesh surface all
+mesh volume all
+# ----------------------------------------------------------------------
+# Smooth the mesh to improve quality.
+# ----------------------------------------------------------------------
+# Loop where we decrease desired condition number at each step.
+#{condnum=2.4}
+volume all smooth scheme condition number beta {condnum} cpu 5
+smooth volume all
+#{condnum=condnum-0.1}
+volume all smooth scheme condition number beta {condnum} cpu 5
+smooth volume all
+#{condnum=condnum-0.1}
+# ----------------------------------------------------------------------
+# Create blocks for different materials.
+# ----------------------------------------------------------------------
+block 1 volume 2 3
+block 1 name "crust"
+block 2 volume 4 5
+block 2 name "lithosphere"
+block 3 volume 1
+block 3 name "asthenosphere"
+# ----------------------------------------------------------------------
+# Create nodeset for dike and dike edge.
+# ----------------------------------------------------------------------
+group "fault" add node in surface 9 22
+nodeset 100 fault
+nodeset 100 name "fault"
+group "fault_edge" add node in curve 14 22 41 43 44
+nodeset 102 fault_edge
+nodeset 102 name "fault_edge"
+# ----------------------------------------------------------------------
+# Create nodesets for all external boundaries.
+# ----------------------------------------------------------------------
+group "face_xpos" add node in surface 4 14 25
+nodeset 10 face_xpos
+nodeset 10 name "face_xpos"
+group "face_xneg" add node in surface 6 17 27
+nodeset 11 face_xneg
+nodeset 11 name "face_xneg"
+group "face_ypos" add node in surface 3 18 24
+nodeset 12 face_ypos
+nodeset 12 name "face_ypos"
+group "face_yneg" add node in surface 5 15 26
+nodeset 13 face_yneg
+nodeset 13 name "face_yneg"
+group "face_zpos" add node in surface 13 16
+nodeset 14 face_zpos
+nodeset 14 name "face_zpos"
+group "face_zneg" add node in surface 1
+nodeset 15 face_zneg
+nodeset 15 name "face_zneg"
+# ----------------------------------------------------------------------
+# Export exodus file.
+# ----------------------------------------------------------------------
+set large exodus file off
+export mesh "./korea_simple.exo" dimension 3 overwrite
+# End of file

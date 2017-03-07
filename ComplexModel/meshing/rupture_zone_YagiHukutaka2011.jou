@@ -1,0 +1,66 @@
+reset
+
+#{Units("si")}
+
+##### Values a user need to provide #####
+### Note that km length units are implied.
+#{faultLength=500.0}
+#{faultWidth =200.0}
+#{faultHtop  =5.37 }
+#{faultDip   =12.0}
+#{faultStrike=200.0}
+### Epicenter x and y coordinates are converted from the lat lon
+### of the epicenter to the model coordinates.
+### See https://osf.io/6szrn/wiki/Defining%20boundary%20surfaces%20and%20fault%20plane/
+#{epicenterX=2697.00}
+#{epicenterY=1987.84}
+### Depth to the hypocenter
+#{hypocenterDepth=-22.0}
+### Hypocenter x and y coordinates rel.to the fault plane origin (top left corner)
+#{hypocenterX=190.0}
+#{hypocenterZ=80.0}
+
+##### Drived values #####
+#{blockLength=faultLength+0.0}
+#{blockWidth =faultWidth*cos(faultDip*deg)+0.0}
+#{blockHeight=110}
+
+#{localEpiX = 0.5*blockWidth - hypocenterZ*cos(faultDip*deg)}
+#{localEpiY = 0.5*blockLength - hypocenterX}
+
+# move the box so that localEpiX and localEpiY coincide with epicenterX and epicenterY.
+#{domain_center_x=epicenterX - localEpiX}
+#{domain_center_y=epicenterY - localEpiY}
+#{domain_center_z=-0.5*blockHeight+10.0}
+
+##### Create and recenter a box containing the fault plane.
+brick x {blockWidth} y {blockLength} z {blockHeight}
+volume 1 move x {domain_center_x} y {domain_center_y} z {domain_center_z}
+
+##### Create the fault plane
+create planar surface with plane zplane offset -22
+rotate Surface 7 angle {faultDip} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 -1 0 include_merged
+
+##### Rotate the volumes to achieve the fault strike
+rotate vol 1 angle {180-faultStrike} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 0 1 include_merged
+rotate Surface 7 angle {180-faultStrike} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 0 1 include_merged
+
+##### Cut the box with the fault plane
+webcut body 1 with sheet extended from surface 7
+
+##### Delete
+delete volume 3
+delete surf 7
+
+##### Clean up
+merge all
+imprint all with all
+compress all
+
+##### Rename volumes for later references
+volume 1 name "hangingwall"
+#volume 2 name "footwall"
+
+##### Save as an object importable into a global meshing script
+export Acis './rupture_zone_YagiHukutaka2011.sat' overwrite
+

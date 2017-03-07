@@ -1,0 +1,123 @@
+reset
+# ----------------------------------------------------------------------
+# Set units to SI.
+# ----------------------------------------------------------------------
+#{Units('si')}
+
+
+# ----------------------------------------------------------------------
+# Import Korea and fault zone geometry
+# ----------------------------------------------------------------------
+import acis  './Korea.sat' 
+import acis './rupture_zone_YagiHukutaka2011.sat'
+
+# ----------------------------------------------------------------------
+# Chop layers that overlap with the hagingwall block
+# ----------------------------------------------------------------------
+# Cut crust and lithosphere with the hangingwall
+chop crust with hangingwall keep
+chop lithosphere with hangingwall keep
+
+# ----------------------------------------------------------------------
+# Clean up
+# ----------------------------------------------------------------------
+delete crust lithosphere hangingwall
+imprint all with all
+merge all
+compress all
+
+# ----------------------------------------------------------------------
+# Assign sizes to different regions and define meshing scheme.
+# ----------------------------------------------------------------------
+#{min_size=5.0}
+#{int_size=25.0}
+#{max_size=100.0}
+
+volume all size {max_size}
+crust@A size {min_size}
+lithosphere@A size {min_size}
+crust@B size {int_size}
+lithosphere@B size {int_size}
+
+volume all scheme tetmesh
+
+# ----------------------------------------------------------------------
+# Generate the mesh.
+# ----------------------------------------------------------------------
+mesh surface all
+mesh volume all
+
+# ----------------------------------------------------------------------
+# Smooth the mesh to improve quality.
+# ----------------------------------------------------------------------
+
+# Loop where we decrease desired condition number at each step.
+#{condnum=2.4}
+#{loop(2)}
+volume all smooth scheme condition number beta {condnum} cpu 5
+smooth volume all
+#{condnum=condnum-0.1}
+#{endloop}
+
+
+# ----------------------------------------------------------------------
+# Create blocks for different materials.
+# ----------------------------------------------------------------------
+block 1 crust@A crust@B
+block 1 name "crust"
+
+block 2 lithosphere@A lithosphere@B
+block 2 name "lithosphere"
+
+block 3 asthenosphere
+block 3 name "asthenosphere"
+
+
+# ----------------------------------------------------------------------
+# Create nodeset for fault and fault edge.
+# ----------------------------------------------------------------------
+group "fault" add node in surface 9 22
+nodeset 100 group fault
+nodeset 100 name "fault"
+
+group "fault_edge" add node in curve 14 22 41 43 44
+nodeset 102 group fault_edge
+nodeset 102 name "fault_edge"
+
+
+# ----------------------------------------------------------------------
+# Create nodesets for all external boundaries.
+# ----------------------------------------------------------------------
+group "face_xpos" add node in surface 3 17 24
+nodeset 10 group face_xpos
+nodeset 10 name "face_xpos"
+
+group "face_xneg" add node in surface 5 14 26
+nodeset 11 group face_xneg
+nodeset 11 name "face_xneg"
+
+group "face_ypos" add node in surface 2 15 27
+nodeset 12 group face_ypos
+nodeset 12 name "face_ypos"
+
+group "face_yneg" add node in surface 4 18 25
+nodeset 13 group face_yneg
+nodeset 13 name "face_yneg"
+
+group "face_zpos" add node in surface 13 16
+nodeset 14 group face_zpos
+nodeset 14 name "face_zpos"
+
+group "face_zneg" add node in surface 6
+nodeset 15 group face_zneg
+nodeset 15 name "face_zneg"
+
+# ----------------------------------------------------------------------
+# Export exodus file.
+# ----------------------------------------------------------------------
+# Scale the mesh by a factor of 1000 so that the coordinate units are understood as meters in PyLith.
+transform mesh output scale 1000
+set large exodus off
+export mesh "./korea_complex.exo" dimension 3 overwrite
+
+# End of file

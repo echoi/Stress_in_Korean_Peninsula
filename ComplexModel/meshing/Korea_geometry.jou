@@ -1,0 +1,80 @@
+# -*- Python -*- (syntax highlighting)
+# ----------------------------------------------------------------------
+#
+# We use the CUBIT support for APREPRO (expressions in braces), which
+# includes units and mathematical functions. See the APREPRO section in the
+# appendix of the CUBIT documentation for more information.
+#
+# ----------------------------------------------------------------------
+# Set units to SI.
+# ----------------------------------------------------------------------
+#{Units('si')}
+#
+# ----------------------------------------------------------------------
+# Reset geometry and turn undo off.
+# ----------------------------------------------------------------------
+reset
+undo off
+
+# ----------------------------------------------------------------------
+# Create box defining domain.
+# ----------------------------------------------------------------------
+#{domain_x=4000.0}
+#{domain_y=3600.0}
+#{domain_z=400.0}
+#{domain_center_x=0.5*domain_x}
+#{domain_center_y=0.5*domain_y}
+#{domain_center_z=-0.5*domain_z+10.0}
+
+# Create box, then move it to correct position.
+brick x {domain_x} y {domain_y} z {domain_z}
+volume 1 move x {domain_center_x} y {domain_center_y} z {domain_center_z}
+
+# ----------------------------------------------------------------------
+# Import topography and webcut domain with it.
+# ----------------------------------------------------------------------
+import acis "Topo.sat"
+body 2 move x 0 y 0 z 0
+webcut volume 1 with sheet body 2
+
+# ----------------------------------------------------------------------
+# Import Moho and webcut domain with it.
+# ----------------------------------------------------------------------
+import acis "Moho.sat"
+body 4 move x 0 y 0 z 0
+webcut volume 1 with sheet body 4
+
+# ----------------------------------------------------------------------
+# Import LAB and webcut domain with it.
+# ----------------------------------------------------------------------
+import acis "LAB.sat"
+body 6 move x 0 y 0 z 0
+webcut volume 1 with sheet body 6
+
+# ----------------------------------------------------------------------
+# Delete volume above topo and topo surface, which are no longer needed.
+# ----------------------------------------------------------------------
+delete volume 3
+delete body 2 4 6
+
+# ----------------------------------------------------------------------
+# Imprint and merge all volumes.
+# ----------------------------------------------------------------------
+imprint all
+merge all
+
+# ----------------------------------------------------------------------
+# Compress ID's.
+# ----------------------------------------------------------------------
+compress ids all
+
+##### Rename volumes for later references
+volume 1 name "asthenosphere"
+volume 2 name "crust"
+volume 3 name "lithosphere"
+
+##### Save as an object importable into a global meshing script
+export Acis './Korea.sat' overwrite
+
+# End of file
+
