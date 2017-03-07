@@ -22,10 +22,11 @@ reset
 
 ##### Drived values #####
 #{blockLength=faultLength+0.0}
-#{blockWidth =faultWidth*cos(faultDip*deg)+0.0}
+# make the box 10 km wider so that the fault plane can cut the top surface
+#{blockWidth =faultWidth*cos(faultDip*deg)+10.0} 
 #{blockHeight=110}
 
-#{localEpiX = 0.5*blockWidth - hypocenterZ*cos(faultDip*deg)}
+#{localEpiX = 0.5*faultWidth*cos(faultDip*deg) - hypocenterZ*cos(faultDip*deg)}
 #{localEpiY = 0.5*blockLength - hypocenterX}
 
 # move the box so that localEpiX and localEpiY coincide with epicenterX and epicenterY.
@@ -63,4 +64,5 @@ volume 1 name "hangingwall"
 
 ##### Save as an object importable into a global meshing script
 export Acis './rupture_zone_YagiHukutaka2011.sat' overwrite
+
 
