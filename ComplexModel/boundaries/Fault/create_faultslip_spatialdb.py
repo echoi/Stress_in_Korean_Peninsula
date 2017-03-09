@@ -15,17 +15,24 @@ slips = np.loadtxt("s2011TOHOKU01YAGI_slp.slip")
 rakes = np.loadtxt("s2011TOHOKU01YAGI_slp.rake")
 
 nx = 25
-ny = 10
+nz = 10
 cellSizeX = 20.0 # km
-cellSizeY = 20.0 # km
+cellSizeZ = 20.0 # km
 faultDip = 12.0 # deg
 faultStrike = 200.0 # deg
+HypX = 190.0 # km
+HypZ = 80.0 # km
+
+
+# number of padding cells
+nPadX = 2 # 2 on the left and 2 on the right
+nPadZ = 2 # 2 on the bottom only.
 
 # Since the given locations in .fsp file is the x-y coordinates of
 # the top center of the cells, we compute the location of the cell centers.
-distanceToCellCenter = 0.5*cellSizeY*cos(faultDip*deg2rad)
-cellCenter_xOffset = distanceToCellCenter * sin((faultStrike+90.0)*deg2rad)
-cellCenter_yOffset = distanceToCellCenter * cos((faultStrike+90.0)*deg2rad)
+distanceToCellCenter = 0.5 * cellSizeZ * cos( faultDip * deg2rad )
+cellCenter_xOffset = distanceToCellCenter * sin( (faultStrike + 90.0) * deg2rad )
+cellCenter_yOffset = distanceToCellCenter * cos( (faultStrike + 90.0) * deg2rad )
 
 # x and y offset to move the epicenter ((0,0) in .fsp file) to
 # the model's epicenter coordinates.
@@ -56,25 +63,47 @@ SimpleDB {{
 // (4) left-lateral-slip (m) (right-lateral is negative)
 // (5) reverse-slip (m)
 // (6) fault-opening (m)\
-'''.format(nx*ny)
+'''.format((nx+2*nPadX)*(nz+nPadZ))
 print(header, file=fdb)
 
-for j in range(ny):
-    for i in range(nx):
-        n = i + nx * j
-        # retireve the location, slip and rake of the current cell.
-        xyz = xyzs[n, 2:4]
-        slip = slips[j,i]
-        rake = rakes[j,i]
-        # compute the cell center location
-        x = xyz[0] + cellCenter_xOffset + xOffset
-        y = xyz[1] + cellCenter_yOffset + yOffset
+for j in range(nz+nPadZ):
+    for i in range(nx+2*nPadX):
+        # compute the center location of this cell
+        # in the Cartesian coordinate system
+        # (i.e., with the origin on the top left corner)
+        x = 0.5 * cellSizeX * (i-nPadX)
+        y = 0.5 * cellSizeZ * j * cos(faultDip*deg2rad)
+
+        # If the current cell is outside of the source model
+        # set slip and rake to be zero.
+        slip = 0.0
+        rake = 0.0
+        # if inside, retrieve slip and rake from the source model.
+        if i >= nPadX and i < nx and j < nz:
+            slip = slips[j,i-nPadX]
+            rake = rakes[j,i-nPadX]
         # compute reverse and (left-lateral positive) strike slip
         reverse_slip = slip * sin(rake*deg2rad)
         strike_slip = slip * cos(rake*deg2rad)
+
+        # shift the xy coordinates so that the epicenter becomes the origin.
+        # The epicenter location in the fault plane coordinate system
+        # comes with the source model.
+        x = x - HypX
+        y = y - HypX * cos(faultDip*deg2rad)
+
+        # Rotate the coordinate by the fault strike
+        # around the epicenter
+        x_rot = x * cos( faultStrike * deg2rad ) - y * sin( faultStrike * deg2rad )
+        y_rot = x * sin( faultStrike * deg2rad ) + y * cos( faultStrike * deg2rad )
+
+        # Finally, translate the rotated cell center by the epicenter offsets
+        x_rot = x_rot + xOffset
+        y_rot = y_rot + yOffset
+
         # write the central location of the cell and
         # the slips to a spatialDB file
-        print("{0:g} {1:g} 0.0 {2:g} {3:g} 0.0".format(x, y, reverse_slip, strike_slip), file=fdb)
+        print("{0:g} {1:g} 0.0 {2:g} {3:g} 0.0".format(x_rot, y_rot, reverse_slip, strike_slip), file=fdb)
         #eprint("{0:g} {1:g} 0.0 {2:g} {3:g} 0.0".format(x, y, reverse_slip, strike_slip))
 
 fdb.close()
