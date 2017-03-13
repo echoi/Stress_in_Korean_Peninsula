@@ -113,7 +113,7 @@ for j in range(nz+nPadZ):
 
         # write the central location of the cell and
         # the slips to a spatialDB file
-        print("{0:g} {1:g} 0.0 {2:g} {3:g} 0.0".format(x_rot, y_rot, reverse_slip, strike_slip), file=fdb)
+        print("{0:g} {1:g} 0.0 {2:g} {3:g} 0.0".format(x_rot, y_rot, strike_slip, reverse_slip), file=fdb)
         #eprint("{0:g} {1:g} 0.0 {2:g} {3:g} 0.0".format(x, y, reverse_slip, strike_slip))
 
 fdb.close()
