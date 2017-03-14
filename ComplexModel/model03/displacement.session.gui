@@ -26,6 +26,15 @@
             <Field name="defaultStyle" type="string">macintosh</Field>
             <Field name="defaultOrientation" type="int">0</Field>
         </Object>
+        <Object name="Annotation">
+            <Field name="x" type="int">0</Field>
+            <Field name="y" type="int">148</Field>
+            <Field name="width" type="int">573</Field>
+            <Field name="height" type="int">720</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+            <Field name="activeTab" type="int">2</Field>
+        </Object>
         <Field name="postWhenShown" type="bool">false</Field>
         <Object name="Color tables">
             <Field name="x" type="int">6</Field>
@@ -38,28 +47,36 @@
         </Object>
         <Object name="File open">
             <Field name="x" type="int">0</Field>
-            <Field name="y" type="int">265</Field>
+            <Field name="y" type="int">263</Field>
             <Field name="width" type="int">687</Field>
             <Field name="height" type="int">476</Field>
             <Field name="visible" type="bool">false</Field>
         </Object>
         <Object name="Information">
             <Field name="x" type="int">519</Field>
-            <Field name="y" type="int">416</Field>
+            <Field name="y" type="int">414</Field>
             <Field name="width" type="int">483</Field>
             <Field name="height" type="int">304</Field>
             <Field name="visible" type="bool">false</Field>
+        </Object>
+        <Object name="Lighting">
+            <Field name="x" type="int">0</Field>
+            <Field name="y" type="int">316</Field>
+            <Field name="width" type="int">473</Field>
+            <Field name="height" type="int">384</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
         </Object>
         <Object name="MainWin">
             <Field name="x" type="int">0</Field>
             <Field name="y" type="int">3</Field>
             <Field name="width" type="int">391</Field>
-            <Field name="height" type="int">991</Field>
-            <Field name="SPLITTER_VALUES_V2" type="floatVector">0 0.946996 0.0447585 </Field>
+            <Field name="height" type="int">992</Field>
+            <Field name="SPLITTER_VALUES_V2" type="floatVector">0 0.947059 0.0447059 </Field>
         </Object>
         <Object name="Mesh plot attributes">
-            <Field name="x" type="int">0</Field>
-            <Field name="y" type="int">287</Field>
+            <Field name="x" type="int">624</Field>
+            <Field name="y" type="int">382</Field>
             <Field name="width" type="int">407</Field>
             <Field name="height" type="int">550</Field>
             <Field name="visible" type="bool">false</Field>
@@ -67,15 +84,15 @@
         </Object>
         <Object name="Pseudocolor plot attributes">
             <Field name="x" type="int">545</Field>
-            <Field name="y" type="int">483</Field>
+            <Field name="y" type="int">481</Field>
             <Field name="width" type="int">484</Field>
-            <Field name="height" type="int">467</Field>
+            <Field name="height" type="int">482</Field>
             <Field name="visible" type="bool">false</Field>
             <Field name="posted" type="bool">false</Field>
         </Object>
         <Object name="Vector plot attributes">
             <Field name="x" type="int">111</Field>
-            <Field name="y" type="int">480</Field>
+            <Field name="y" type="int">478</Field>
             <Field name="width" type="int">631</Field>
             <Field name="height" type="int">392</Field>
             <Field name="visible" type="bool">false</Field>
@@ -83,15 +100,15 @@
         </Object>
         <Object name="Box operator attributes">
             <Field name="x" type="int">8</Field>
-            <Field name="y" type="int">412</Field>
+            <Field name="y" type="int">432</Field>
             <Field name="width" type="int">374</Field>
             <Field name="height" type="int">345</Field>
             <Field name="visible" type="bool">false</Field>
             <Field name="posted" type="bool">false</Field>
         </Object>
         <Object name="Clip operator attributes">
-            <Field name="x" type="int">2763</Field>
-            <Field name="y" type="int">274</Field>
+            <Field name="x" type="int">938</Field>
+            <Field name="y" type="int">195</Field>
             <Field name="width" type="int">384</Field>
             <Field name="height" type="int">613</Field>
             <Field name="visible" type="bool">false</Field>
@@ -99,7 +116,7 @@
         </Object>
         <Object name="Extrude operator attributes">
             <Field name="x" type="int">8</Field>
-            <Field name="y" type="int">419</Field>
+            <Field name="y" type="int">439</Field>
             <Field name="width" type="int">374</Field>
             <Field name="height" type="int">221</Field>
             <Field name="visible" type="bool">false</Field>
@@ -107,7 +124,7 @@
         </Object>
         <Object name="Slice operator attributes">
             <Field name="x" type="int">422</Field>
-            <Field name="y" type="int">372</Field>
+            <Field name="y" type="int">392</Field>
             <Field name="width" type="int">403</Field>
             <Field name="height" type="int">453</Field>
             <Field name="visible" type="bool">false</Field>
@@ -115,7 +132,7 @@
         </Object>
         <Object name="Transform operator attributes">
             <Field name="x" type="int">0</Field>
-            <Field name="y" type="int">330</Field>
+            <Field name="y" type="int">350</Field>
             <Field name="width" type="int">491</Field>
             <Field name="height" type="int">433</Field>
             <Field name="visible" type="bool">false</Field>
