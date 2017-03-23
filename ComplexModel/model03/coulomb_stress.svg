@@ -22,9 +22,24 @@
   <defs
      id="defs4">
     <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker15729"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path15731"
+         style="fill:#2a7fff;fill-opacity:1;fill-rule:evenodd;stroke:#0066ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
        inkscape:isstock="true"
        style="overflow:visible"
-       id="marker6206"
+       id="marker15473"
        refX="0"
        refY="0"
        orient="auto"
@@ -32,8 +47,8 @@
       <path
          transform="scale(-0.6,-0.6)"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         style="fill:#c83737;fill-opacity:1;fill-rule:evenodd;stroke:#c83737;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path6208"
+         style="fill:#2a7fff;fill-opacity:1;fill-rule:evenodd;stroke:#0066ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path15475"
          inkscape:connector-curvature="0" />
     </marker>
     <marker
@@ -41,15 +56,578 @@
        orient="auto"
        refY="0"
        refX="0"
-       id="marker6130"
+       id="marker15229"
        style="overflow:visible"
        inkscape:isstock="true">
       <path
-         id="path6132"
-         style="fill:#c83737;fill-opacity:1;fill-rule:evenodd;stroke:#c83737;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         id="path15231"
+         style="fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:#aa0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker14985"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:#aa0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path14987"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker14669"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path14671"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker13909"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path13911"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker13671"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#2a7fff;fill-opacity:1;fill-rule:evenodd;stroke:#0066ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path13673"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker13451"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path13453"
+         style="fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:#aa0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker13237"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path13239"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          transform="scale(-0.6,-0.6)"
          inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker13029"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path13031"
+         style="fill:#2a7fff;fill-opacity:1;fill-rule:evenodd;stroke:#0066ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker12827"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path12829"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker12631"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path12633"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker12393"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path12395"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path10235"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path10247"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker11492"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send">
+      <path
+         transform="scale(0.3) rotate(180) translate(-2.3,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path11494" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Send"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path10262"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.3) rotate(180) translate(-2.3,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker10712"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path10714" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker10011"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path10013"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker9647"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path9649"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker9291"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path9293"
+         style="fill:#c83737;fill-opacity:1;fill-rule:evenodd;stroke:#c83737;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker9095"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:collect="always">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:#aa0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path9097"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker8699"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path8701"
+         style="fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:#aa0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker8505"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path8507" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker7977"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:collect="always">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#2a7fff;fill-opacity:1;fill-rule:evenodd;stroke:#0066ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7979"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker7761"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7763" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker7403"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#2a7fff;fill-opacity:1;fill-rule:evenodd;stroke:#0066ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7405" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker7243"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#c83737;fill-opacity:1;fill-rule:evenodd;stroke:#c83737;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7245" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6759"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6761"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6557"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6559"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6403"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path6405" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6267"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6269"
+         style="fill:#2a7fff;fill-opacity:1;fill-rule:evenodd;stroke:#0066ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6113"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6115"
+         style="fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5381"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5383"
+         style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#d40000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5041"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5043"
+         style="fill:#2a7fff;fill-opacity:1;fill-rule:evenodd;stroke:#0066ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker4921"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:collect="always">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#d40000;fill-opacity:1;fill-rule:evenodd;stroke:#d40000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4923"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4809"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4811"
+         style="fill:#2a7fff;fill-opacity:1;fill-rule:evenodd;stroke:#0066ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4513"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4515"
+         style="fill:#2a7fff;fill-opacity:1;fill-rule:evenodd;stroke:#0066ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker4407"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#c83737;fill-opacity:1;fill-rule:evenodd;stroke:#c83737;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4409" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4319"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4321"
+         style="fill:#c83737;fill-opacity:1;fill-rule:evenodd;stroke:#c83737;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
     </marker>
     <marker
        inkscape:isstock="true"
@@ -66,131 +644,6 @@
          id="path5434"
          inkscape:connector-curvature="0" />
     </marker>
-    <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker5178"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         id="path5180"
-         style="fill:#2a7fff;fill-opacity:1;fill-rule:evenodd;stroke:#0066ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker4944"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend"
-       inkscape:collect="always">
-      <path
-         transform="scale(-0.6,-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         style="fill:#2a7fff;fill-opacity:1;fill-rule:evenodd;stroke:#0066ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path4946"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker4684"
-       style="overflow:visible"
-       inkscape:isstock="true">
-      <path
-         id="path4686"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker4602"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend">
-      <path
-         transform="scale(-0.6,-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path4604"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker4516"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend"
-       inkscape:collect="always">
-      <path
-         transform="scale(-0.6,-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path4518"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow2Mend"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         id="path4171"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker4426"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Lend">
-      <path
-         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         style="fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path4428"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow2Lend"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow2Lend"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         id="path4165"
-         style="fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -199,17 +652,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0737336"
-     inkscape:cx="66.073478"
-     inkscape:cy="454.26946"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="1523.1323"
+     inkscape:cy="321.26048"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="751"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1920"
+     inkscape:window-height="969"
+     inkscape:window-x="24"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -222,7 +675,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -232,176 +685,790 @@
      id="layer1"
      transform="translate(-85.714286,-155.61125)">
     <path
-       style="fill:#b3b3b3;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4426)"
-       d="m 85.714286,492.3622 597.142854,0"
-       id="path4136"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#b3b3b3;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-       d="m 384.28571,772.3622 0,-560"
-       id="path4138"
-       inkscape:connector-curvature="0" />
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-ydpi="150.44608"
+       inkscape:export-xdpi="150.44608"
+       inkscape:connector-curvature="0"
+       id="path9637"
+       d="m 346.0736,81.24364 93.85032,-257.85165"
+       style="fill:#999999;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4283"
+       y="-52.562317"
+       x="640.43378"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:serif;-inkscape-font-specification:'serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2a7fff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608"><tspan
+         y="-52.562317"
+         x="640.43378"
+         id="tspan4285"
+         sodipodi:role="line">x</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:64px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="362.48703"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:serif;-inkscape-font-specification:'serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2a7fff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="401.9129"
+       y="-295.2052"
+       id="text4287"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608"><tspan
+         sodipodi:role="line"
+         id="tspan4289"
+         x="401.9129"
+         y="-295.2052">y</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path4293"
+       d="m 389.12418,-42.33958 267.28642,0"
+       style="fill:#2a7fff;fill-rule:evenodd;stroke:#0066ff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4513)"
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:serif;-inkscape-font-specification:'serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d40000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="489.64362"
+       y="-278.87051"
+       id="text4797"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608"><tspan
+         sodipodi:role="line"
+         id="tspan4799"
+         x="489.64362"
+         y="-278.87051">x′</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4801"
+       y="-138.79858"
+       x="160.15216"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:serif;-inkscape-font-specification:'serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d40000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608"><tspan
+         y="-138.79858"
+         x="160.15216"
+         id="tspan4803"
+         sodipodi:role="line">y′</tspan></text>
+    <path
+       style="fill:#d40000;fill-rule:evenodd;stroke:#d40000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4921)"
+       d="M 390.56155,-41.44769 481.9788,-292.61476"
+       id="path4807"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5039"
+       d="m 390.16609,-41.40436 -3e-5,-267.2864"
+       style="fill:#2a7fff;fill-rule:evenodd;stroke:#0066ff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5041)"
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5379"
+       d="m 390.13061,-42.06897 -251.16708,-91.4173"
+       style="fill:#d40000;fill-rule:evenodd;stroke:#d40000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5381)"
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path5827"
+       sodipodi:type="arc"
+       sodipodi:cx="389.97479"
+       sodipodi:cy="-43.127502"
+       sodipodi:rx="43.464272"
+       sodipodi:ry="43.464272"
+       sodipodi:start="5.1130782"
+       sodipodi:end="0"
+       d="m 406.92816,-83.149073 a 43.464272,43.464272 0 0 1 26.5109,40.021571"
+       sodipodi:open="true"
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="438.00024"
+       y="-60.249763"
+       id="text5829"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608"><tspan
+         sodipodi:role="line"
+         id="tspan5831"
+         x="438.00024"
+         y="-60.249763"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';text-align:start;writing-mode:lr-tb;text-anchor:start">θ</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path6013"
+       d="m 785.71429,492.3622 597.14281,0"
+       style="fill:#b3b3b3;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6113)"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6015"
+       d="m 1084.2857,772.3622 0,-560"
+       style="fill:#b3b3b3;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8505)"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6017"
        y="202.1425"
-       id="text4466"
+       x="1062.4871"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png"><tspan
+         y="202.1425"
+         x="1062.4871"
+         id="tspan6019"
+         sodipodi:role="line">N</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6021"
+       y="515.9964"
+       x="1396.1948"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png"><tspan
+         y="515.9964"
+         x="1396.1948"
+         id="tspan6023"
+         sodipodi:role="line">E</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path6025"
+       d="m 1038.9808,392.5876 39.4734,87.832"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6403)"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6759)"
+       d="M 1071.7233,499.48082 885.96371,582.96451"
+       id="path6027"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6029"
+       d="m 1097.1885,486.93074 185.7596,-83.48369"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7761)"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6031"
+       y="612.6839"
+       x="863.46301"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png"><tspan
+         y="612.6839"
+         x="863.46301"
+         id="tspan6033"
+         sodipodi:role="line"><tspan
+           id="tspan6035"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:start;writing-mode:lr-tb;text-anchor:start">σ</tspan><tspan
+           id="tspan6037"
+           style="font-size:64.99999762%;baseline-shift:sub">3</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1007.463"
+       y="410.6839"
+       id="text6039"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png"><tspan
+         sodipodi:role="line"
+         id="tspan6041"
+         x="1007.463"
+         y="410.6839"><tspan
+           id="tspan6043"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:start;writing-mode:lr-tb;text-anchor:start">σ</tspan><tspan
+           id="tspan6045"
+           style="font-size:64.99999762%;baseline-shift:sub">1</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6047"
+       y="592.6839"
+       x="1133.463"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png"><tspan
+         y="592.6839"
+         x="1133.463"
+         id="tspan6049"
+         sodipodi:role="line"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="tspan6051">σ</tspan><tspan
+           id="tspan6053"
+           style="font-size:64.99999762%;baseline-shift:sub">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1271.463"
+       y="378.6839"
+       id="text6055"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png"><tspan
+         sodipodi:role="line"
+         id="tspan6057"
+         x="1271.463"
+         y="378.6839"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="tspan6059">σ</tspan><tspan
+           id="tspan6061"
+           style="font-size:64.99999762%;baseline-shift:sub">3</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6063"
+       y="489.70621"
+       x="1161.058"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png"><tspan
+         y="489.70621"
+         x="1161.058"
+         id="tspan6065"
+         sodipodi:role="line">24.3°</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6067"
+       y="739.1347"
+       x="1203.8447"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:serif;-inkscape-font-specification:'serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2a7fff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png"><tspan
+         y="739.1347"
+         x="1203.8447"
+         id="tspan6069"
+         sodipodi:role="line">x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:serif;-inkscape-font-specification:'serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2a7fff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1331.8447"
+       y="413.1347"
+       id="text6071"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png"><tspan
+         sodipodi:role="line"
+         id="tspan6073"
+         x="1331.8447"
+         y="413.1347">y</tspan></text>
+    <path
+       style="fill:#999999;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 988.23313,755.43175 1179.7644,229.20388"
+       id="path6075"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6077"
+       y="219.33154"
+       x="1183.5605"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png"><tspan
+         y="219.33154"
+         x="1183.5605"
+         id="tspan6079"
+         sodipodi:role="line">YSF</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1092.058"
+       y="408.70621"
+       id="text6081"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png"><tspan
+         sodipodi:role="line"
+         id="tspan6083"
+         x="1092.058"
+         y="408.70621">20°</tspan></text>
+    <path
+       sodipodi:open="true"
+       d="m 1084.5,415.86221 a 76,76 0 0 1 25.5329,4.4174"
+       sodipodi:end="5.055013"
+       sodipodi:start="4.712389"
+       sodipodi:ry="76"
+       sodipodi:rx="76"
+       sodipodi:cy="491.86221"
+       sodipodi:cx="1084.5"
+       sodipodi:type="arc"
+       id="path6085"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6087"
+       sodipodi:type="arc"
+       sodipodi:cx="1084.5"
+       sodipodi:cy="491.86221"
+       sodipodi:rx="74.98497"
+       sodipodi:ry="74.98497"
+       sodipodi:start="5.8850514"
+       sodipodi:end="0"
+       d="m 1153.6201,462.79062 a 74.98497,74.98497 0 0 1 5.8649,29.07159"
+       sodipodi:open="true"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6557)"
+       d="m 1129.2061,592.24857 -39.4734,-87.832"
+       id="path6089"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6091"
+       sodipodi:type="arc"
+       sodipodi:cx="1084.5"
+       sodipodi:cy="491.86221"
+       sodipodi:rx="62.961384"
+       sodipodi:ry="62.961384"
+       sodipodi:start="5.0853259"
+       sodipodi:end="1.1403151"
+       d="m 1107.4401,433.22871 a 62.961384,62.961384 0 0 1 39.9952,56.82222 62.961384,62.961384 0 0 1 -36.661,59.02839"
+       sodipodi:open="true"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1141.058"
+       y="549.70618"
+       id="text6093"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png"><tspan
+         sodipodi:role="line"
+         id="tspan6095"
+         x="1141.058"
+         y="549.70618">135.8°</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:serif;-inkscape-font-specification:'serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#c83737;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1187.8447"
+       y="261.1347"
+       id="text6097"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png"><tspan
+         sodipodi:role="line"
+         id="tspan6099"
+         x="1187.8447"
+         y="261.1347">x′</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6101"
+       y="391.1347"
+       x="853.84479"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:serif;-inkscape-font-specification:'serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#c83737;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png"><tspan
+         y="391.1347"
+         x="853.84479"
+         id="tspan6103"
+         sodipodi:role="line">y′</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path6111"
+       d="m 1084.3888,492.22982 109.5669,243.79726"
+       style="fill:#2a7fff;fill-rule:evenodd;stroke:#0066ff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6267)"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <path
+       style="fill:#2a7fff;fill-rule:evenodd;stroke:#0066ff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7977)"
+       d="m 1084.1443,492.74896 243.7972,-109.5669"
+       id="path7975"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <path
+       sodipodi:open="true"
+       d="m 1105.6183,437.88502 a 57.961384,57.961384 0 0 1 36.8285,52.6765 57.961384,57.961384 0 0 1 -34.4278,54.27594"
+       sodipodi:end="1.1529742"
+       sodipodi:start="5.0853259"
+       sodipodi:ry="57.961384"
+       sodipodi:rx="57.961384"
+       sodipodi:cy="491.86221"
+       sodipodi:cx="1084.5"
+       sodipodi:type="arc"
+       id="path8689"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path8697"
+       d="m 1083.8157,492.42384 91.8555,-251.00708"
+       style="fill:#aa0000;fill-rule:evenodd;stroke:#aa0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8699)"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <path
+       style="fill:#aa0000;fill-rule:evenodd;stroke:#aa0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9095)"
+       d="M 1083.0441,491.48849 832.037,399.63299"
+       id="path9093"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-filename="coulomb_stress_PyLith.png" />
+    <path
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="M 382.49576,-45.04686 284.03827,-80.882439"
+       id="path9645"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path10710"
+       d="m 353.17578,-3.11661 35.83557,-98.45749"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker11492)"
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608" />
+    <text
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-ydpi="150.44608"
+       inkscape:export-xdpi="150.44608"
+       sodipodi:linespacing="125%"
+       id="text11598"
+       y="-91.316101"
+       x="278.46301"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="-91.316101"
+         x="278.46301"
+         id="tspan11600"
+         sodipodi:role="line"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:start;writing-mode:lr-tb;text-anchor:start">σ<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan11606">y′y′</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="354.46301"
+       y="-121.3161"
+       id="text11609"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608"
+       inkscape:export-filename="coulomb_stress_geometry.png"><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         sodipodi:role="line"
+         id="tspan11611"
+         x="354.46301"
+         y="-121.3161">σ<tspan
+   id="tspan11613"
+   style="font-size:64.99999762%;baseline-shift:sub">x′y′</tspan></tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
+       d="m 385.71429,-9.63781 c 0,0 10,12 26,19 16,7 32,4 32,4"
+       id="path11615"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="455.05359"
+       y="23.536116"
+       id="text11617"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="coulomb_stress_geometry.png"
+       inkscape:export-xdpi="150.44608"
+       inkscape:export-ydpi="150.44608"><tspan
+         sodipodi:role="line"
+         id="tspan11619"
+         x="455.05359"
+         y="23.536116">Fault plane</tspan></text>
+    <path
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       style="fill:#b3b3b3;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker12393)"
+       d="m 85.71429,492.3622 597.14281,0"
+       id="path12291"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       style="fill:#b3b3b3;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8505)"
+       d="m 384.2857,772.3622 0,-560"
+       id="path12293"
+       inkscape:connector-curvature="0" />
+    <text
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="362.48712"
+       y="202.1425"
+       id="text12295"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4468"
-         x="362.48703"
+         id="tspan12297"
+         x="362.48712"
          y="202.1425">N</tspan></text>
     <text
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:64px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="696.19482"
        y="515.9964"
-       id="text4470"
+       id="text12299"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4472"
+         id="tspan12301"
          x="696.19482"
          y="515.9964">E</tspan></text>
     <path
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        sodipodi:nodetypes="cc"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
-       d="M 376.73199,473.76101 363.00924,436.05806"
-       id="path4474"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker12631)"
+       d="M 380.61244,482.26677 360.94639,427.94011"
+       id="path12303"
        inkscape:connector-curvature="0" />
     <path
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        inkscape:connector-curvature="0"
-       id="path4598"
-       d="m 368.00848,498.44866 -239.2187,87.06849"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4602)" />
+       id="path12305"
+       d="m 370.38916,498.57612 -191.4962,69.32067"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker12827)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4684)"
-       d="m 400.90334,485.13446 239.2187,-87.06849"
-       id="path4600"
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker13237)"
+       d="M 402.72367,485.97071 594.21988,416.65004"
+       id="path12307"
        inkscape:connector-curvature="0" />
     <text
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="159.463"
-       y="600.6839"
-       id="text4900"
+       x="163.46301"
+       y="612.6839"
+       id="text12309"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4902"
-         x="159.463"
-         y="600.6839"><tspan
+         id="tspan12311"
+         x="163.46301"
+         y="612.6839"><tspan
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:start;writing-mode:lr-tb;text-anchor:start"
-           id="tspan4914">σ</tspan><tspan
+           id="tspan12313">σ</tspan><tspan
            style="font-size:64.99999762%;baseline-shift:sub"
-           id="tspan5530">3</tspan></tspan></text>
+           id="tspan12315">3</tspan></tspan></text>
     <text
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        sodipodi:linespacing="125%"
-       id="text4906"
-       y="446.6839"
-       x="317.46301"
+       id="text12317"
+       y="410.6839"
+       x="307.46301"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         y="446.6839"
-         x="317.46301"
-         id="tspan4908"
+         y="410.6839"
+         x="307.46301"
+         id="tspan12319"
          sodipodi:role="line"><tspan
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:start;writing-mode:lr-tb;text-anchor:start"
-           id="tspan4912">σ</tspan><tspan
+           id="tspan12321">σ</tspan><tspan
            style="font-size:64.99999762%;baseline-shift:sub"
-           id="tspan5526">1</tspan></tspan></text>
+           id="tspan12323">1</tspan></tspan></text>
     <text
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="375.46301"
-       y="568.6839"
-       id="text4916"
+       x="433.46301"
+       y="592.6839"
+       id="text12325"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4918"
-         x="375.46301"
-         y="568.6839"><tspan
-           id="tspan4920"
+         id="tspan12327"
+         x="433.46301"
+         y="592.6839"><tspan
+           id="tspan12329"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:start;writing-mode:lr-tb;text-anchor:start">σ</tspan><tspan
            style="font-size:64.99999762%;baseline-shift:sub"
-           id="tspan5528">1</tspan></tspan></text>
+           id="tspan12331">1</tspan></tspan></text>
     <text
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        sodipodi:linespacing="125%"
-       id="text4924"
-       y="394.6839"
-       x="577.46301"
+       id="text12333"
+       y="378.6839"
+       x="571.46301"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         y="394.6839"
-         x="577.46301"
-         id="tspan4926"
+         y="378.6839"
+         x="571.46301"
+         id="tspan12335"
          sodipodi:role="line"><tspan
-           id="tspan4928"
+           id="tspan12337"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:start;writing-mode:lr-tb;text-anchor:start">σ</tspan><tspan
            style="font-size:64.99999762%;baseline-shift:sub"
-           id="tspan5532">3</tspan></tspan></text>
+           id="tspan12339">3</tspan></tspan></text>
     <text
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="461.05798"
        y="489.70621"
-       id="text4932"
+       id="text12341"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4934"
+         id="tspan12343"
          x="461.05798"
          y="489.70621">20°</tspan></text>
     <text
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:serif;-inkscape-font-specification:'serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2a7fff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="481.84479"
-       y="747.1347"
-       id="text5416"
+       x="487.84473"
+       y="739.1347"
+       id="text12345"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan5418"
-         x="481.84479"
-         y="747.1347">x</tspan></text>
+         id="tspan12347"
+         x="487.84473"
+         y="739.1347">x</tspan></text>
     <text
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        sodipodi:linespacing="125%"
-       id="text5420"
-       y="417.1347"
-       x="657.84479"
+       id="text12349"
+       y="429.1347"
+       x="641.84473"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:serif;-inkscape-font-specification:'serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2a7fff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         y="417.1347"
-         x="657.84479"
-         id="tspan5422"
+         y="429.1347"
+         x="641.84473"
+         id="tspan12351"
          sodipodi:role="line">y</tspan></text>
     <path
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        inkscape:connector-curvature="0"
-       id="path5430"
-       d="M 288.23313,755.43175 479.76441,229.20388"
-       style="fill:#999999;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       id="path12353"
+       d="M 288.23313,755.43175 479.7644,229.20388"
+       style="fill:#999999;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="483.56052"
+       x="483.56049"
        y="219.33154"
-       id="text5514"
+       id="text12355"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan5516"
-         x="483.56052"
+         id="tspan12357"
+         x="483.56049"
          y="219.33154">YSF</tspan></text>
     <text
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        sodipodi:linespacing="125%"
-       id="text5518"
+       id="text12359"
        y="408.70621"
        x="392.05798"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="408.70621"
          x="392.05798"
-         id="tspan5520"
+         id="tspan12361"
          sodipodi:role="line">20°</tspan></text>
     <path
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path5522"
+       id="path12363"
        sodipodi:type="arc"
        sodipodi:cx="384.5"
        sodipodi:cy="491.86221"
@@ -412,89 +1479,361 @@
        d="m 384.5,415.86221 a 76,76 0 0 1 25.53294,4.4174"
        sodipodi:open="true" />
     <path
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        sodipodi:open="true"
-       d="m 455.02337,466.3828 a 74.98497,74.98497 0 0 1 4.4616,25.47941"
+       d="m 455.46786,467.64839 a 74.98497,74.98497 0 0 1 4.01711,24.21382"
        sodipodi:end="0"
-       sodipodi:start="5.9364879"
+       sodipodi:start="5.9543767"
        sodipodi:ry="74.98497"
        sodipodi:rx="74.98497"
        sodipodi:cy="491.86221"
        sodipodi:cx="384.5"
        sodipodi:type="arc"
-       id="path5524"
+       id="path12365"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <path
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
-       id="path4514"
-       d="m 390.5091,506.09488 13.72275,37.70295"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4516)" />
+       id="path12367"
+       d="m 389.46341,503.17928 19.66606,54.32666"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker13909)" />
     <path
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        sodipodi:open="true"
-       d="m 407.44011,433.22871 a 62.961384,62.961384 0 0 1 40.01757,59.31677 62.961384,62.961384 0 0 1 -41.29551,58.4343"
-       sodipodi:end="1.2195643"
+       d="m 407.44011,433.22871 a 62.961384,62.961384 0 0 1 39.99521,56.82222 62.961384,62.961384 0 0 1 -36.66102,59.02839"
+       sodipodi:end="1.1403151"
        sodipodi:start="5.0853259"
        sodipodi:ry="62.961384"
        sodipodi:rx="62.961384"
        sodipodi:cy="491.86221"
        sodipodi:cx="384.5"
        sodipodi:type="arc"
-       id="path6066"
+       id="path12369"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        sodipodi:linespacing="125%"
-       id="text6068"
+       id="text12371"
        y="549.70618"
        x="441.05798"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="549.70618"
          x="441.05798"
-         id="tspan6070"
+         id="tspan12373"
          sodipodi:role="line">140°</tspan></text>
     <text
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        sodipodi:linespacing="125%"
-       id="text6446"
-       y="317.1347"
-       x="459.84479"
+       id="text12375"
+       y="261.1347"
+       x="487.84473"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:serif;-inkscape-font-specification:'serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#c83737;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         y="317.1347"
-         x="459.84479"
-         id="tspan6448"
+         y="261.1347"
+         x="487.84473"
+         id="tspan12377"
          sodipodi:role="line">x′</tspan></text>
     <text
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:serif;-inkscape-font-specification:'serif, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#c83737;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="183.84479"
-       y="401.1347"
-       id="text6450"
+       x="153.84479"
+       y="391.1347"
+       id="text12379"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan6452"
-         x="183.84479"
-         y="401.1347">y′</tspan></text>
+         id="tspan12381"
+         x="153.84479"
+         y="391.1347">y′</tspan></text>
     <path
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path6126"
-       d="M 384.30167,492.19599 452.86466,303.82072"
-       style="fill:#c83737;fill-rule:evenodd;stroke:#c83737;stroke-width:2.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6130)" />
-    <path
-       sodipodi:nodetypes="cc"
-       style="fill:#c83737;fill-rule:evenodd;stroke:#c83737;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6206)"
-       d="M 384.3458,490.94854 175.03995,414.76744"
-       id="path6128"
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       style="fill:#2a7fff;fill-rule:evenodd;stroke:#0066ff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker13671)"
+       d="m 385.06268,490.79517 90.97888,251.32619"
+       id="path12383"
        inkscape:connector-curvature="0" />
     <path
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
        inkscape:connector-curvature="0"
-       id="path5176"
-       d="M 384.42165,491.02691 663.49612,389.45211"
-       style="fill:#2a7fff;fill-rule:evenodd;stroke:#0066ff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5178)" />
+       id="path12385"
+       d="M 384.77994,491.79452 636.10607,400.81564"
+       style="fill:#2a7fff;fill-rule:evenodd;stroke:#0066ff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker13029)" />
     <path
-       style="fill:#2a7fff;fill-rule:evenodd;stroke:#0066ff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4944)"
-       d="m 385.53451,492.71733 91.41732,251.16703"
-       id="path4936"
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path12387"
+       sodipodi:type="arc"
+       sodipodi:cx="384.5"
+       sodipodi:cy="491.86221"
+       sodipodi:rx="57.961384"
+       sodipodi:ry="57.961384"
+       sodipodi:start="5.0853259"
+       sodipodi:end="1.1529742"
+       d="m 405.61835,437.88502 a 57.961384,57.961384 0 0 1 36.82844,52.6765 57.961384,57.961384 0 0 1 -34.42775,54.27594"
+       sodipodi:open="true" />
+    <path
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       style="fill:#aa0000;fill-rule:evenodd;stroke:#aa0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8699)"
+       d="M 383.8157,492.42384 475.6712,241.41676"
+       id="path12389"
        inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-filename="coulomb_stress_GPS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       inkscape:connector-curvature="0"
+       id="path12391"
+       d="M 383.0441,491.48849 132.037,399.63299"
+       style="fill:#aa0000;fill-rule:evenodd;stroke:#aa0000;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker13451)" />
+    <path
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       style="fill:#b3b3b3;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker14669)"
+       d="m 1505.7143,492.3622 597.1428,0"
+       id="path14567"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       style="fill:#b3b3b3;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8505)"
+       d="m 1804.2857,772.3622 0,-560"
+       id="path14569"
+       inkscape:connector-curvature="0" />
+    <text
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1782.4871"
+       y="202.1425"
+       id="text14571"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan14573"
+         x="1782.4871"
+         y="202.1425">N</tspan></text>
+    <text
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2116.1948"
+       y="515.9964"
+       id="text14575"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan14577"
+         x="2116.1948"
+         y="515.9964">E</tspan></text>
+    <path
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       sodipodi:nodetypes="cc"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6403)"
+       d="m 1758.9808,392.5876 39.4734,87.832"
+       id="path14579"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       inkscape:connector-curvature="0"
+       id="path14581"
+       d="m 1791.7233,499.48082 -185.7596,83.48369"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6759)" />
+    <path
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7761)"
+       d="m 1817.1885,486.93074 185.7596,-83.48369"
+       id="path14583"
+       inkscape:connector-curvature="0" />
+    <text
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1583.463"
+       y="612.6839"
+       id="text14585"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan14587"
+         x="1583.463"
+         y="612.6839"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="tspan14589">σ</tspan><tspan
+           style="font-size:64.99999762%;baseline-shift:sub"
+           id="tspan14591">3</tspan></tspan></text>
+    <text
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       sodipodi:linespacing="125%"
+       id="text14593"
+       y="410.6839"
+       x="1727.463"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="410.6839"
+         x="1727.463"
+         id="tspan14595"
+         sodipodi:role="line"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="tspan14597">σ</tspan><tspan
+           style="font-size:64.99999762%;baseline-shift:sub"
+           id="tspan14599">1</tspan></tspan></text>
+    <text
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1853.463"
+       y="592.6839"
+       id="text14601"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan14603"
+         x="1853.463"
+         y="592.6839"><tspan
+           id="tspan14605"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:start;writing-mode:lr-tb;text-anchor:start">σ</tspan><tspan
+           style="font-size:64.99999762%;baseline-shift:sub"
+           id="tspan14607">1</tspan></tspan></text>
+    <text
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       sodipodi:linespacing="125%"
+       id="text14609"
+       y="378.6839"
+       x="1991.463"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="378.6839"
+         x="1991.463"
+         id="tspan14611"
+         sodipodi:role="line"><tspan
+           id="tspan14613"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Italic';text-align:start;writing-mode:lr-tb;text-anchor:start">σ</tspan><tspan
+           style="font-size:64.99999762%;baseline-shift:sub"
+           id="tspan14615">3</tspan></tspan></text>
+    <path
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       inkscape:connector-curvature="0"
+       id="path14629"
+       d="M 1708.2331,755.43175 1899.7644,229.20388"
+       style="fill:#999999;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1903.5605"
+       y="219.33154"
+       id="text14631"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan14633"
+         x="1903.5605"
+         y="219.33154">YSF</tspan></text>
+    <text
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       sodipodi:linespacing="125%"
+       id="text14635"
+       y="408.70621"
+       x="1812.058"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="408.70621"
+         x="1812.058"
+         id="tspan14637"
+         sodipodi:role="line">20°</tspan></text>
+    <path
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path14639"
+       sodipodi:type="arc"
+       sodipodi:cx="1804.5"
+       sodipodi:cy="491.86221"
+       sodipodi:rx="76"
+       sodipodi:ry="76"
+       sodipodi:start="4.712389"
+       sodipodi:end="5.055013"
+       d="m 1804.5,415.86221 a 76,76 0 0 1 25.5329,4.4174"
+       sodipodi:open="true" />
+    <path
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-ydpi="150.14999"
+       inkscape:export-xdpi="150.14999"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path14643"
+       d="m 1849.2061,592.24857 -39.4734,-87.832"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6557)" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:0.29326926;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path15993"
+       sodipodi:type="arc"
+       sodipodi:cx="1804.114"
+       sodipodi:cy="492.59586"
+       sodipodi:rx="163.48309"
+       sodipodi:ry="163.48309"
+       sodipodi:start="6.0213859"
+       sodipodi:end="0.61833521"
+       d="m 1962.0266,450.28331 a 163.48309,163.48309 0 0 1 -24.6993,137.08033 L 1804.114,492.59586 Z"
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999" />
+    <path
+       d="m 1645.3306,534.56265 a 163.48309,163.48309 0 0 1 25.0032,-137.50607 l 132.9094,95.19354 z"
+       sodipodi:end="3.7631276"
+       sodipodi:start="2.8797933"
+       sodipodi:ry="163.48309"
+       sodipodi:rx="163.48309"
+       sodipodi:cy="492.25012"
+       sodipodi:cx="1803.2432"
+       sodipodi:type="arc"
+       id="path15995"
+       style="opacity:1;fill:#000000;fill-opacity:0.29326926;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="coulomb_stress_RLSS.png"
+       inkscape:export-xdpi="150.14999"
+       inkscape:export-ydpi="150.14999" />
   </g>
 </svg>
