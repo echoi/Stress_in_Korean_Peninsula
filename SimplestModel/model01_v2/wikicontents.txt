@@ -1,0 +1,31 @@
+# Main features
+
+- This model has three layers, crust, lid (lithospheric mantle) and asthenosphere.
+- Each layer has a uniform thickness: Depths to the bottom of each layer are 35, 100 and 400 km.
+- The rupture surface
+    - is centered around (1500 km, 900 km)
+    - is planar, 500 x 200 km.
+    - has a strike and a dip of 200$^{\circ}$ and 12$^{\circ}$.
+    - has a uniform slip of 25 m.
+- Gravity is not included.
+
+# Model geometry and mesh
+
+- Download the [mesh-generating script][1] and the [mesh in Exocus format][2].
+
+![domain geometry][3]
+![enter image description here][4]
+
+
+# Material models
+
+- Crust: Linear isotropic elastic material
+    - Uniform
+- Lid: Linear isotropic elastic material with uniform
+- Asthenosphere: Linear isotropic Maxwell viscoelastic
+
+
+  [1]: https://osf.io/3t92j/
+  [2]: https://osf.io/bwrbb/
+  [3]: https://mfr.osf.io/export?url=https://osf.io/7fg8g/?action=download&direct&mode=render&initialWidth=848&childId=mfrIframe&format=800x600.png
+  [4]: https://mfr.osf.io/export?url=https://osf.io/wtnpe/?action=download&direct&mode=render&initialWidth=848&childId=mfrIframe&format=800x600.png
