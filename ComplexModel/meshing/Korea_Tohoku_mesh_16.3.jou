@@ -18,6 +18,14 @@ import acis './rupture_zone_YagiHukutaka2011.sat'
 chop crust with hangingwall keep
 chop lithosphere with hangingwall keep
 
+Surface 29 copy 
+create surface curve 56 87 90 92 on surface 43
+Surface 41 copy 
+Surface 42 copy 
+Surface 44 copy 
+stitch volume 14 15 16 17 18 
+volume 19 rename "lithosphere@A"
+
 # ----------------------------------------------------------------------
 # Clean up
 # ----------------------------------------------------------------------
@@ -76,11 +84,25 @@ block 3 name "asthenosphere"
 # ----------------------------------------------------------------------
 # Create nodeset for fault and fault edge.
 # ----------------------------------------------------------------------
-group "fault" add node in surface 9 11
+## All
+#group "fault" add node in surface 9 21 
+#group "fault" remove node in curve 38 40 41 18 21
+## updip portion only
+#group "fault" add node in surface 9
+#group "fault" remove node in curve 18 20 21
+## downdip portion only
+group "fault" add node in surface 21
+group "fault" remove node in curve 20 38 40 41
+
 nodeset 100 group fault
 nodeset 100 name "fault"
 
-group "fault_edge" add node in curve 18 21 13 17 23
+## All
+#group "fault_edge" add node in curve 38 40 41 18 21
+## updip portion only
+# group "fault_edge" add node in curve 18 20 21
+## downdip portion only
+group "fault_edge" add node in curve 20 38 40 41
 nodeset 102 group fault_edge
 nodeset 102 name "fault_edge"
 
@@ -88,23 +110,23 @@ nodeset 102 name "fault_edge"
 # ----------------------------------------------------------------------
 # Create nodesets for all external boundaries.
 # ----------------------------------------------------------------------
-group "face_xpos" add node in surface 3 17 24
+group "face_xpos" add node in surface 3 16 23
 nodeset 10 group face_xpos
 nodeset 10 name "face_xpos"
 
-group "face_xneg" add node in surface 5 14 26
+group "face_xneg" add node in surface 5 13 25
 nodeset 11 group face_xneg
 nodeset 11 name "face_xneg"
 
-group "face_ypos" add node in surface 2 15 27
+group "face_ypos" add node in surface 2 14 26
 nodeset 12 group face_ypos
 nodeset 12 name "face_ypos"
 
-group "face_yneg" add node in surface 4 18 25
+group "face_yneg" add node in surface 4 17 24
 nodeset 13 group face_yneg
 nodeset 13 name "face_yneg"
 
-group "face_zpos" add node in surface 13 16
+group "face_zpos" add node in surface 12 15
 nodeset 14 group face_zpos
 nodeset 14 name "face_zpos"
 
@@ -118,6 +140,6 @@ nodeset 15 name "face_zneg"
 # Scale the mesh by a factor of 1000 so that the coordinate units are understood as meters in PyLith.
 transform mesh output scale 1000
 set large exodus off
-export mesh "./korea_complex.exo" dimension 3 overwrite
+export mesh "./korea_complex_downdip_portion.exo" dimension 3 overwrite
 
 # End of file
