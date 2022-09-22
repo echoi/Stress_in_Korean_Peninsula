@@ -84,25 +84,11 @@ block 3 name "asthenosphere"
 # ----------------------------------------------------------------------
 # Create nodeset for fault and fault edge.
 # ----------------------------------------------------------------------
-## All
-#group "fault" add node in surface 9 21 
-#group "fault" remove node in curve 38 40 41 18 21
-## updip portion only
-#group "fault" add node in surface 9
-#group "fault" remove node in curve 18 20 21
-## downdip portion only
-group "fault" add node in surface 21
-group "fault" remove node in curve 20 38 40 41
-
+group "fault" add node in surface 9 21 
 nodeset 100 group fault
 nodeset 100 name "fault"
 
-## All
-#group "fault_edge" add node in curve 38 40 41 18 21
-## updip portion only
-# group "fault_edge" add node in curve 18 20 21
-## downdip portion only
-group "fault_edge" add node in curve 20 38 40 41
+group "fault_edge" add node in curve 38 40 41 18 21
 nodeset 102 group fault_edge
 nodeset 102 name "fault_edge"
 
@@ -140,6 +126,7 @@ nodeset 15 name "face_zneg"
 # Scale the mesh by a factor of 1000 so that the coordinate units are understood as meters in PyLith.
 transform mesh output scale 1000
 set large exodus off
-export mesh "./korea_complex_downdip_portion.exo" dimension 3 overwrite
+export mesh "./korea_complex.exo" dimension 3 overwrite
 
 # End of file
+
