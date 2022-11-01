@@ -99,7 +99,7 @@ group "face_yneg" add node in surface 2 16
 nodeset 13 group face_yneg
 nodeset 13 name "face_yneg"
 
-group "face_zpos" add node in surface 14
+group "face_zpos" add node in surface 11 14
 nodeset 14 group face_zpos
 nodeset 14 name "face_zpos"
 
@@ -116,3 +116,4 @@ set large exodus off
 export mesh "./korea_complex_lithasth.exo" dimension 3 overwrite
 
 # End of file
+
