@@ -1,0 +1,29 @@
+% ----------------------------------  FINITE-SOURCE SLIP MODEL  --------------------------------
+% 
+% Evnt : Hyuga-nada (Japan)		04/01/1968		[Yagi et al. (1998) ] 
+% EventTAG: s1968HYUGAx01YAGI
+% 
+% Loc  : LAT  = 32.28		LON = 132.53		DEP = 15.0
+% Size : LEN  = 72.0 km	WID =  63.0 km		Mw = 7.53	Mo = 2.22e+20 Nm
+% Mech : STRK = 227.0		DIP = 12.0		RAKE = 90.0	Htop = 10.32 km 
+% Rupt : HypX = 31.50 km	HypZ = 22.50 km		avTr = 12.0 s	avVr = 2.8 km/s 
+% Invs :  inDx = 9.00 km	inDz  = 9.00 km 	Fmin = 999.00 Hz	Fmax = 999.00 Hz 
+% Invs :  Nx  =  8	Nz  = 7
+% 
+% Number of segments: Nsg = 1 
+% 
+% Check corresponding file -- s1968HYUGAx01YAGI.fsp -- for details & exact geometry 
+% 
+% rows : source-parameter values in along-strike direction (row 1 == top) 
+% cols : source-parameter values in down-dip direction 
+% 
+% 23-Jul-2007 PMM (mai@sed.ethz.ch) 
+% --------------------------------------------------------------------------------------------------
+% -----------------------------------------   TOTAL SLIP [m]   -------------------------------------
+       0.54         0.57         0.45         0.59         1.10         1.69         1.17         0.37  
+       0.52         0.81         1.68         1.75         2.92         2.85         1.28         0.43  
+       0.52         1.97         3.07         2.88         2.34         3.43         1.73         0.44  
+       0.49         1.02         2.50         0.88         2.22         3.50         2.21         0.50  
+       0.45         0.86         1.44         1.91         4.03         2.12         1.60         1.25  
+       0.44         0.53         0.45         0.47         0.47         0.67         1.48         3.15  
+       0.29         0.36         0.40         0.29         0.32         0.30         0.38         1.74  

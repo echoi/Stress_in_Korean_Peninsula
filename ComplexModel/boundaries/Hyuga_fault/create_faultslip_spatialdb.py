@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-from __future__ import print_function
 
 import numpy as np
 from numpy import sin, cos, pi
@@ -11,27 +10,27 @@ def eprint(*args, **kwargs):
 deg2rad = pi/180.0
 
 # Source model-related stuff
-xyzs = np.loadtxt("s2011TOHOKU01YAGI_fsp.xyz")
-slips = np.loadtxt("s2011TOHOKU01YAGI_slp.slip")
-rakes = np.loadtxt("s2011TOHOKU01YAGI_slp.rake")
+# xyzs = np.loadtxt("s1968HYUGAx01YAGI.fsp")
+slips = np.loadtxt("s1968HYUGAx01YAGI.slp", comments="%")
+# rakes = np.loadtxt("s2011TOHOKU01YAGI_slp.rake")
 
-nx = 25
-nz = 10
-cellSizeX = 20.0 # km
-cellSizeZ = 20.0 # km
+nx = 8
+nz = 7
+cellSizeX = 9.0 # km
+cellSizeZ = 9.0 # km
 faultDip = 12.0 # deg
-faultStrike = 200.0 # deg
-HypX = 190.0 # km
-HypZ = 80.0 # km
+faultStrike = 227.0 # deg
+HypX = 31.50 # km
+HypZ = 22.50 # km
 
 # number of padding cells
-nPadX = 4 # 2 on the left and 2 on the right
-nPadZ = 4 # 2 on the bottom only.
+nPadX = 2 # 2 on the left and 2 on the right
+nPadZ = 2 # 2 on the bottom only.
 
 # x and y offset to move the epicenter ((0,0) in .fsp file) to
 # the model's epicenter coordinates.
-xOffset = 2697.00
-yOffset = 1987.84
+xOffset = 1875.0
+yOffset = 1379.26
 
 # Open the spatialdb file
 fdb = open("finalslip.spatialdb","w")
@@ -86,19 +85,19 @@ for j in range(nz+nPadZ):
         # If the current cell is outside of the source model
         # set slip and rake to be zero.
         slip = 0.0
-        rake = 0.0
+        rake = 90.0
         # if inside, retrieve slip and rake from the source model.
         if i >= nPadX and i < (nx+nPadX) and j < nz:
             slip = slips[j,i-nPadX]
-            rake = rakes[j,i-nPadX]
+            # rake = rakes[j,i-nPadX]
         # compute reverse and (left-lateral positive) strike slip
-        reverse_slip = slip * sin(rake*deg2rad)
-        strike_slip = slip * cos(rake*deg2rad)
+        reverse_slip = slip # because rake is 90 deg. In general, slip * sin(rake*deg2rad)
+        strike_slip = 0.0 # because rake is 90 deg. In general, slip * cos(rake*deg2rad)
 
         # shift the xy coordinates so that the epicenter becomes the origin.
         # The epicenter location in the fault plane coordinate system
         # comes with the source model.
-        x = x - HypZ * cos(faultDip*deg2rad) - 20.0 # 20.0 km shift to the west to safely contain all the fault elements.
+        x = x - HypZ * cos(faultDip*deg2rad) - cellSizeX # shift to the west by one cell to safely contain all the fault elements.
         y = y - HypX
 
         # Rotate the coordinate by the fault strike
