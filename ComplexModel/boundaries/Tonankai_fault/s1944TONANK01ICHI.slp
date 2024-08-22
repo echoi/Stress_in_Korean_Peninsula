@@ -1,0 +1,29 @@
+% ----------------------------------  FINITE-SOURCE SLIP MODEL  --------------------------------
+% 
+% Evnt : Tonankai (Japan)		12/07/1944		[Ichinose et al. (2003) ] 
+% EventTAG: s1944TONANK01ICHI
+% 
+% Loc  : LAT  = 33.77		LON = 135.96		DEP = 30.0
+% Size : LEN  = 220.0 km	WID =  140.0 km		Mw = 8.04	Mo = 1.31e+21 Nm
+% Mech : STRK = 235.0		DIP = 20.0		RAKE = 82.0	Htop = 2.0 km 
+% Rupt : HypX = 190.00 km	HypZ = 110.00 km		avTr = 22.5 s	avVr = 2.5 km/s 
+% Invs :  inDx = 20.00 km	inDz  = 20.00 km 	Fmin = 0.00 Hz	Fmax = 0.50 Hz 
+% Invs :  Nx  =  11	Nz  = 7
+% 
+% Number of segments: Nsg = 1 
+% 
+% Check corresponding file -- s1944TONANK01ICHI.fsp -- for details & exact geometry 
+% 
+% rows : source-parameter values in along-strike direction (row 1 == top) 
+% cols : source-parameter values in down-dip direction 
+% 
+% 23-Jul-2007 PMM (mai@sed.ethz.ch) 
+% --------------------------------------------------------------------------------------------------
+% -----------------------------------------   TOTAL SLIP [m]   -------------------------------------
+       0.33         0.70         0.91         1.18         1.16         1.05         1.34         0.98         1.24         1.16         1.07  
+       0.49         0.79         1.20         1.49         1.29         1.32         1.33         1.41         1.06         1.04         1.45  
+       0.58         0.92         1.36         1.56         1.38         1.10         1.09         0.70         0.59         0.81         1.69  
+       0.74         1.17         1.56         1.29         1.78         0.99         0.78         0.58         0.62         0.60         0.55  
+       0.87         1.30         1.76         1.76         1.39         1.10         0.79         0.37         0.55         0.43         0.81  
+       0.88         1.53         1.85         1.70         0.99         0.82         0.81         0.39         0.29         1.16         0.46  
+       1.00         1.65         2.33         1.79         1.96         0.94         0.69         0.69         0.35         0.30         0.59  
