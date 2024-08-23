@@ -71,11 +71,11 @@ block 2 name "asthenosphere"
 # Create nodeset for fault and fault edge.
 # ----------------------------------------------------------------------
 group "fault" add node in surface 9
-# group "fault" remove node in curve 15 18 20
+# group "fault" remove node in curve 15 19 20
 nodeset 100 group fault
 nodeset 100 name "fault"
 
-group "fault_edge" add node in curve 15 18 20
+group "fault_edge" add node in curve 15 19 20
 nodeset 102 group fault_edge
 nodeset 102 name "fault_edge"
 
@@ -83,23 +83,23 @@ nodeset 102 name "fault_edge"
 # ----------------------------------------------------------------------
 # Create nodesets for all external boundaries.
 # ----------------------------------------------------------------------
-group "face_xpos" add node in surface 5 15
+group "face_xpos" add node in surface 5 16
 nodeset 10 group face_xpos
 nodeset 10 name "face_xpos"
 
-group "face_xneg" add node in surface 3 12
+group "face_xneg" add node in surface 3 13
 nodeset 11 group face_xneg
 nodeset 11 name "face_xneg"
 
-group "face_ypos" add node in surface 4 13
+group "face_ypos" add node in surface 4 14
 nodeset 12 group face_ypos
 nodeset 12 name "face_ypos"
 
-group "face_yneg" add node in surface 2 16
+group "face_yneg" add node in surface 2 17
 nodeset 13 group face_yneg
 nodeset 13 name "face_yneg"
 
-group "face_zpos" add node in surface 11 14
+group "face_zpos" add node in surface 12 15
 nodeset 14 group face_zpos
 nodeset 14 name "face_zpos"
 
@@ -116,4 +116,3 @@ set large exodus off
 export mesh "./korea_nankai_lithasth.exo" dimension 3 overwrite
 
 # End of file
-

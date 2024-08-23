@@ -70,12 +70,12 @@ block 2 name "asthenosphere"
 # ----------------------------------------------------------------------
 # Create nodeset for fault and fault edge.
 # ----------------------------------------------------------------------
-group "fault" add node in surface 9
-# group "fault" remove node in curve 15 18 20
+group "fault" add node in surface 7
+# group "fault" remove node in curve 14 15 16
 nodeset 100 group fault
 nodeset 100 name "fault"
 
-group "fault_edge" add node in curve 15 18 20
+group "fault_edge" add node in curve 14 15 16
 nodeset 102 group fault_edge
 nodeset 102 name "fault_edge"
 
