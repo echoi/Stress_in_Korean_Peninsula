@@ -8,7 +8,9 @@ reset
 # ----------------------------------------------------------------------
 # Import Korea and fault zone geometry
 # ----------------------------------------------------------------------
+# If not found, run 'Korea_geometry_lithasth.jou' to generate it.
 import acis  './Korea_lithasth.sat' 
+# If not found, run 'rupture_zone_s1946NANKAI01BABA.jou' to generate this file.
 import acis './rupture_zone_s1946NANKAI01BABA.sat'
 
 # ----------------------------------------------------------------------

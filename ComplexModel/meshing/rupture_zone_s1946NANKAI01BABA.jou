@@ -12,7 +12,8 @@ reset
 ### Epicenter x and y coordinates are converted from the lat lon
 ### of the epicenter to the model coordinates.
 ### See https://osf.io/6szrn/wiki/Defining%20boundary%20surfaces%20and%20fault%20plane/
-#{epicenterX=1836.00}
+### and https://osf.io/6szrn/files/github/ComplexModel%2Fboundaries%2Fdefine_domain.ipynb
+#{epicenterX=2136.00}
 #{epicenterY=1453.64}
 ### Depth to the hypocenter
 #{hypocenterDepth=-30.0}
@@ -26,12 +27,12 @@ reset
 #{blockWidth =faultWidth*cos(faultDip*deg)+10.0} 
 #{blockHeight=110}
 
-# X and Y coordinates of the epicenter relative to the center of the domain (0,0,0)
+# X and Y coordinates of the epicenter relative to the center of the domain, (0,0,0) by the Cubit convention.
 #{localEpiX = 0.5*faultWidth*cos(faultDip*deg) - hypocenterZ*cos(faultDip*deg)}
 #{localEpiY = 0.5*blockLength - hypocenterX}
 
 # move the box so that localEpiX and localEpiY coincide with epicenterX and epicenterY.
-# And the top is at 10 km above the surface (z=0).
+# And the top of the box is at 10 km above the z=0 surface.
 # If the domain center is not shifted by localEpi[X,Y], the domain center will be at the epicenter.
 # It means that the epicenter would be no more at the same local coordinates, (190,80), but at the center of the rupture plane, (250, 100).
 #{domain_center_x=epicenterX - localEpiX}
@@ -46,7 +47,8 @@ volume 1 move x {domain_center_x} y {domain_center_y} z {domain_center_z}
 create planar surface with plane zplane offset -22
 rotate Surface 7 angle {faultDip} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 -1 0 include_merged
 
-##### Rotate the volumes to achieve the fault strike
+##### Rotate the volumes to achieve the fault strike: 
+##### Maybe this can be done after webcutting and cleaning up.
 rotate vol 1 angle {180-faultStrike} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 0 1 include_merged
 rotate Surface 7 angle {180-faultStrike} about origin {epicenterX} {epicenterY} {hypocenterDepth} direction 0 0 1 include_merged
 

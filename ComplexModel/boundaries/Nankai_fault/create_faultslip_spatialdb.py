@@ -29,7 +29,7 @@ nPadZ = 2 # 2 on the bottom only.
 
 # x and y offset to move the epicenter ((0,0) in .fsp file) to
 # the model's epicenter coordinates.
-xOffset = 1836.0
+xOffset = 2136.0
 yOffset = 1453.64
 
 # Open the spatialdb file
